@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Rowdies';
+    src: url('fonts/Rowdies-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'belgant';
+    src: url('fonts/belgant.ttf');
+
+}
+
+.button {
+    -fx-font-family: 'Rowdies';
+    -fx-text-fill: #f3f3e6;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.button:hover {
+    -fx-cursor: hand;
+    -fx-text-fill: #504639;
+}
+
+#pane {
+    -fx-background-color: grey;
+    -fx-background-image: url('/images/bg.jpg');
+}
+
+#frontpane {
+    -fx-background-color: #3c342d;
+    -fx-opacity: 60%;
+}
+
+.password-field {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: #f3f3e6;
+}
+
