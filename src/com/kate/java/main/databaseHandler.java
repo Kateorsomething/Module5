@@ -31,7 +31,6 @@ public class databaseHandler {
             e.printStackTrace();
         }
     }
-
     public boolean executeAction(String qu) {
         try {
             statement = connection.createStatement();
