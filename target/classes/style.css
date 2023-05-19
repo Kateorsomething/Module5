@@ -3,12 +3,6 @@
     src: url('fonts/Rowdies-Regular.ttf');
 }
 
-@font-face {
-    font-family: 'belgant';
-    src: url('fonts/belgant.ttf');
-
-}
-
 .button {
     -fx-font-family: 'Rowdies';
     -fx-text-fill: #f3f3e6;
