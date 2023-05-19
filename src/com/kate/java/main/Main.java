@@ -12,6 +12,10 @@ import java.sql.SQLException;
  * log in with:
  * username: meat
  * password: balls
+ *
+ * VM configuration thing so you don't have to google it:
+ * windows: --module-path "\path\to\javafx-sdk-20\lib" --add-modules javafx.controls,javafx.fxml
+ * mac/linux: --module-path /path/to/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml
  */
 
 public class Main extends Application {
