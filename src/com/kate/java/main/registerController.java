@@ -17,7 +17,8 @@ public class registerController {
     private Text error;
 
     /**
-     * insert user into database if username does not already exist
+     * if username does not already exist, add user into database
+     * else display error message
      */
     public void register() {
         if (userRegistered(username.getText())) {
@@ -34,7 +35,8 @@ public class registerController {
     }
 
     /**
-     * check if username is already registered
+     * if username is already registered, return true
+     * else return false
      * @param username
      */
     private boolean userRegistered(String username) {

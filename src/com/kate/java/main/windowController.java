@@ -22,7 +22,8 @@ public class windowController {
     private Text errormessage;
 
     /**
-     * bring up logged in screen if user is registered
+     * if user is registered, bring up logged in screen
+     * if not, display error text
      */
     public void login() {
         if (userExists(username.getText(),password.getText())) {
@@ -50,7 +51,8 @@ public class windowController {
     }
 
     /**
-     * check if user is registered
+     * if login info is correct, return true
+     * else return false
      * @param username
      * @param password
      */

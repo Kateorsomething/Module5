@@ -8,14 +8,19 @@ import javafx.stage.StageStyle;
 import java.sql.SQLException;
 
 /**
- * eyo
- * log in with:
- * username: meat
- * password: balls
+ * :)
+ * 1. in edit configurations
+ * 2. add new configuration - application
+ * 3. main class - select main class
+ * 4. modify options - add VM options
+ * 5. paste this into VM option text box
+ *     windows: --module-path "libraries/openjfx-20.0.1_windows-x64_bin-sdk/javafx-sdk-20.0.1/lib" --add-modules javafx.controls,javafx.fxml
+ *     mac/linux: --module-path libraries/openjfx-20.0.1_windows-x64_bin-sdk/javafx-sdk-20.0.1/lib --add-modules javafx.controls,javafx.fxml
+ * 6. click ok & run this configuration
  *
- * VM configuration thing so you don't have to google it:
- * windows: --module-path "\path\to\javafx-sdk-20\lib" --add-modules javafx.controls,javafx.fxml
- * mac/linux: --module-path /path/to/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml
+ * login with
+ * username: meat
+ * password:balls
  */
 
 public class Main extends Application {
